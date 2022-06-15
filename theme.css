@@ -1,0 +1,152 @@
+@import "fonts.css";
+
+body {
+    font-family: Gotham, sans-serif;
+    font-size: 16px;
+    color: #1d1d1d;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 24px;
+}
+
+.banner {
+    height: 370px;
+    background-color: #00685b;
+    color: #fff;
+    overflow: hidden;
+    padding: 30px 0;
+    position: relative;
+    z-index: 0;
+}
+
+.banner-svg {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: #bed600;
+}
+
+.banner-svg--left {
+    left: -50px;
+}
+
+.banner-svg--right {
+    right: -100px;
+}
+
+.banner-svg-lines {
+    opacity: 0.15;
+}
+
+.banner-content {
+    height: 320px;
+}
+
+.related-links {
+    margin-left: 7rem;
+    border-left: 2px solid #d4dbe2;
+}
+
+.related-links h4 {
+    font-weight: 400;
+}
+
+.inner > a {
+    color: #00338d;
+    display: inline-block;
+    padding-right: 25px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    text-decoration: none;
+    transition: all .25s;
+}
+
+.inner {
+    padding-left: 20px;
+}
+
+.button {
+    padding: 11px 15px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    border: 0;
+    box-shadow: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    min-width: 180px;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    transition: all .25s;
+    text-decoration: none;
+    z-index: 0;
+}
+
+.button:hover {
+    color: #ffffff;
+    background-color: #00338d;
+}
+
+.button:after, .inner > a:after {
+    font-family: icomoon;
+    font-size: .75em;
+    line-height: 1;
+    position: absolute;
+    right: 15px;
+    top: 1.5em;
+    content: "\e923";
+}
+
+.inner > a:after {
+    right: 0;
+    top: 0.3em;
+}
+
+.beginning {
+    color: #ffffff;
+    background-color: #00a9e0;
+    padding: 15px;
+}
+
+.actions {
+    background-color: #f0f3f6;
+    padding: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+p a {
+    color: #1d1d1d;
+    text-underline-position: under;
+    text-decoration-thickness: 2px;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+    color: #1d1d1d;
+}
+
+.breadcrumbs li a {
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.breadcrumbs li:after {
+    content: "/";
+    display: inline-block;
+    padding: 0 10px;
+}
